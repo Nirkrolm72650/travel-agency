@@ -1,14 +1,12 @@
 import React from 'react';
 
-import { Navbar } from './components'
 import { BookATrip, Destinations, Footer, Hero, Logo, Services, Subscribe, Testimonials} from './container'
 
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Hero />
       <Services />
       <BookATrip />

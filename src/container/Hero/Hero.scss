@@ -1,0 +1,119 @@
+.travel__hero-container{
+    text-align: center;
+    position: relative;
+
+    .travel__hero-decoreImg{
+        position: absolute;
+        top: -149px;
+        right: 0;
+        z-index: -1;
+
+        img{
+            width: 650px;
+            height: 1000px;
+        }
+    }
+}
+.travel__hero-content{
+    display: flex;
+    margin-left: 140px;
+
+    .travel__hero-description{
+        display: flex;
+        flex-direction: column;
+
+        h3{
+            font-family: 'Poppins', sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            text-transform: uppercase;
+            color: #DF6951;
+        }
+
+        .travel__hero-title{
+            position: relative;
+            h1{
+                font-family: 'Volkhov', sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 84px;
+                line-height: 89px;
+                letter-spacing: -0.04em;
+                color: #181E4B;
+            }
+
+            img{
+                position: absolute;
+                top: 130px;
+                left: 200px;
+                z-index: -1;
+            }
+        }
+
+        .travel__hero-paragraphe{
+            p{
+                font-family: 'Poppins', sans-serif;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 30px;
+                color: #5E6282;
+
+            }
+        }
+
+        .travel__hero-cta{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+
+            button{
+                width: 170px;
+                height: 60px;
+                background: #F1A501;
+                box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                color: #ffffff;
+            }
+
+            .travel__hero-playDemo{
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                img{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                }
+
+                p{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0;
+                    font-family: 'Poppins', sans-serif;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 26px;
+                    color: #686D77;
+                }
+            }
+        }
+    }
+
+    .travel__hero-img{
+        position: relative;
+        .travel__hero-traveller{
+            width: 765px;
+            height: 745px;
+        }
+    }
+}
+ 

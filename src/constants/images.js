@@ -29,7 +29,7 @@ import plane from '../assets/plane.svg'
 import plusIcon from '../assets/plus_icon.svg'
 import plusIcon2 from '../assets/plus_icon2.svg'
 import quantas from '../assets/quantas.svg'
-import romeCircle from '../assets/Rome_circle.svg'
+import romeCircle from '../assets/Rome_Circle.svg'
 import rome from '../assets/Rome.svg'
 import send from '../assets/send.svg'
 import taxi from '../assets/Taxi.svg'
@@ -37,6 +37,7 @@ import traveller from '../assets/Traveller.svg'
 import twitter from '../assets/twitter.svg'
 import underline from '../assets/Underline.svg'
 import weather from '../assets/Weather.svg'
+import playButton from '../assets/playButton.svg'
 
 const images = {
     activeIcon,
@@ -77,7 +78,8 @@ const images = {
     traveller,
     twitter,
     underline,
-    weather
+    weather,
+    playButton
 }
 
 export default images;

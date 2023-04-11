@@ -1,0 +1,58 @@
+.travel__navbar{
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .travel__navbar-logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        img{
+            width: 114.91px;
+            height: 33.99px;
+        }
+    }
+
+    .travel__navbar-links{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li{
+            margin: 0 55px;
+            list-style: none;
+        }
+
+        a{
+            text-decoration: none;
+            font-family: 'Google Sans', sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 22px;
+            color: #212832;
+            cursor: pointer;
+        }
+
+        .travel__navbar-btn{
+            width: 102px;
+            height: 40px;
+            font-family: 'Google Sans';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 17px;
+            line-height: 22px;
+            color: #212832;
+            cursor: pointer;
+            outline: none;
+            border: 1px solid #212832;
+            border-radius: 5px;
+            background: transparent;
+        
+        }
+    }
+
+
+}
